@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <Description></Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+	<RootNamespace>AW.EventStore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AW.EventStore.Abstractions" Version="1.1.0" />
+    <PackageReference Include="AW.NamedTypes" Version="1.0.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E328AF09-4950-4AB7-ABDD-CF4EAFF803D7}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+		README.md = README.md
+		.github\workflows\test.yml = .github\workflows\test.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AW.EventStore", "src\AW.EventStore\AW.EventStore.csproj", "{12FF1AA3-D19C-4DFA-8BD0-924656014127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AW.EventStore.Tests", "test\AW.EventStore.Tests\AW.EventStore.Tests.csproj", "{0252AE57-F080-40D5-86E6-3B42FB05D2F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12FF1AA3-D19C-4DFA-8BD0-924656014127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FF1AA3-D19C-4DFA-8BD0-924656014127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FF1AA3-D19C-4DFA-8BD0-924656014127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FF1AA3-D19C-4DFA-8BD0-924656014127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0252AE57-F080-40D5-86E6-3B42FB05D2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0252AE57-F080-40D5-86E6-3B42FB05D2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0252AE57-F080-40D5-86E6-3B42FB05D2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0252AE57-F080-40D5-86E6-3B42FB05D2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90871A89-293D-48BE-BB51-8FD07F7F7833}
+	EndGlobalSection
+EndGlobal

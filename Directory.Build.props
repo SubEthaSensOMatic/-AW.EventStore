@@ -1,0 +1,11 @@
+<Project>
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/SubEthaSensOMatic/AW.EventStore.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/SubEthaSensOMatic/AW.EventStore</PackageProjectUrl>
+		<PackageTags>event-sourcing;microservices;event-stream;event-store;dotnet;csharp;cqrs</PackageTags>
+		<Company>Ajid Welzel</Company>
+	</PropertyGroup>
+</Project>
