@@ -4,8 +4,8 @@ namespace AW.EventStore.Notifications;
 
 public class DefaultEventStoreNotification : IEventStoreNotifications
 {
-    public event EventHandler? StreamChanged;
+    public event EventHandler<StreamChangedNotification>? StreamChanged;
 
     public void Publish(StreamChangedNotification notification)
-        => StreamChanged?.Invoke(this, EventArgs.Empty);
+        => StreamChanged?.Invoke(this, notification);
 }
